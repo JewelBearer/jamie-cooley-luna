@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset+"UTF-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+<meta name+"description" content= "A portfolio highlighting my journey as a budding web developer.">
+<title>Jamie Cooley's Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Connect">Connect</a></li>
+        </ul>
+    </nav>
+
+    <section id="About">
+    <img src="images/IMG_4218 (1).jpg" alt="A photo of me.">
+        <h1>Jamie S. Cooley</h1>
+        <h2>About</h2>
+        <p>I am Jamie. Afro Cherokee Carolinian. A Mama, Writer, Yogi for the Elders, and AI Data Engineer. This is my journey as a student with Code The Dream. I am excited to leearn how to build websites and create a roadmap for my career in technology. I am working hard to overcome challenges and stay on track with my assignments.</p>
+    </section>
+
+    <section id="Experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Learned to learn and approach new concepts</li>
+            <li>Built a strong foundation in JavaScript, including:
+                <ul>
+                    <li>Javascript basics and functions</li>
+                    <li>Loops and arrays</li>
+                    <li>Objects and array methods</li>
+                </ul>
+            </li>
+            <li>Masted Git for version control plus branching</li>
+            <li>Developed a solid understanding of Web Basics and HTML</li>
+            <li>Learned HTML basics and boilerplate structure</li>
+            <li>Completed my first Git workflow, including cloning, committing, and pushing<li>
+            <li>Useed the Terminal to navigate and manage project files</li>
+            <li>Created a personal portfolio with my first webpage</li>
+        </ul>
+    </section>
+
+    <section id="Connect">
+        <h2>Connect</h2>
+        <ul>
+            <li><a href="https://github.com/JewelBearer">GitHub Profile</a></li>
+            <li><a href="https://linkedin.com/in/jamie-cooley-483a8262">LinkedIn Profile</a></li>
+            <li><a href="https://www.instagram.com/sehratonin">Instagram Profile</a></li>
+            <li><a href=Discord: sehratonin</li>
+        <ul>
+    </section>    
+</body>
+</html>
