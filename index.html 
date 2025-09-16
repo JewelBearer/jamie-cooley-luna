@@ -5,8 +5,21 @@
 <meta name="viewport" content="width=device-width, intitial-scale=1.0">
 <meta name+"description" content= "A portfolio highlighting my journey as a budding web developer.">
 <title>Jamie Cooley's Portfolio</title>
+<link rel="stylesheet" href="css/index.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- Animated background -->
+<div class="bg-animation">
+<div class="particle" style="left: 10%; top: 20%; animation-delay: 0s;"></div>
+<div class="particle" style="left: 80%; top: 40%; animation-delay: 2s;"></div>
+<div class="particle" style="left: 30%; top: 70%; animation-delay: 4s;"></div>
+<div class="particle" style="left: 60%; top: 10%; animation-delay: 6s;"></div>
+<div class="particle" style="left: 90%; top: 80%; animation-delay: 8s;"></div>
+<div class="particle" style="left: 20%; top: 50%; animation-delay: 10s;"></div>
+</div>
+
     <nav>
         <ul>
             <li><a href="#About">About</a></li>
@@ -16,40 +29,66 @@
     </nav>
 
     <section id="About">
-    <img src="images/IMG_4218 (1).jpg" alt="A photo of me.">
+    <div class="profile-container">
+    <img src="images/IMG_4218 (1).jpg" alt="Professional photo of Jamie Cooley, Afro Cherokee data engineer, writer, and yogi.">
+        </div>
         <h1>Jamie S. Cooley</h1>
-        <h2>About</h2>
+        <p class="subtitle">Afro Cherokee Carolinian • Data Engineer • Wellness Writer • Yogi for the Elders</p>
+        <h2><i class="fas fa-heart"><h2>About</h2>
         <p>I am Jamie. Afro Cherokee Carolinian. A Mama, Writer, Yogi for the Elders, and AI Data Engineer. This is my journey as a student with Code The Dream. I am excited to leearn how to build websites and create a roadmap for my career in technology. I am working hard to overcome challenges and stay on track with my assignments.</p>
     </section>
 
     <section id="Experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Learned to learn and approach new concepts</li>
-            <li>Built a strong foundation in JavaScript, including:
-                <ul>
-                    <li>Javascript basics and functions</li>
-                    <li>Loops and arrays</li>
-                    <li>Objects and array methods</li>
-                </ul>
-            </li>
-            <li>Masted Git for version control plus branching</li>
-            <li>Developed a solid understanding of Web Basics and HTML</li>
-            <li>Learned HTML basics and boilerplate structure</li>
-            <li>Completed my first Git workflow, including cloning, committing, and pushing<li>
-            <li>Useed the Terminal to navigate and manage project files</li>
-            <li>Created a personal portfolio with my first webpage</li>
-        </ul>
-    </section>
+        <h2><i class="fas fa-code"></i>Experience</h2>
+        <div class="experience-grid">
+<div class="experience-item">
+<h3>Learning & Growth</h3>
+<p>Developed the ability to learn and approach new concepts with confidence</p>
+</div>
+<div class="experience-item">
+<h3>JavaScript Foundation</h3>
+<ul>
+<li>JavaScript basics and functions</li>
+<li>Loops and arrays</li>
+<li>Objects and array methods</li>
+</ul>
+</div>
+<div class="experience-item">
+<h3>Development Tools</h3>
+<ul>
+<li>Mastered Git for version control plus branching</li>
+<li>Used the Terminal to navigate and manage project files</li>
+<li>Completed first Git workflow: cloning, committing, and pushing</li>
+</ul>
+</div>
+<div class="experience-item">
+<h3>Web Development</h3>
+<ul>
+<li>Developed solid understanding of Web Basics and HTML</li>
+<li>Learned HTML basics and boilerplate structure</li>
+<li>Created personal portfolio with first webpage</li>
+</ul>
+</div>
+</div>
+</section>
 
-    <section id="Connect">
-        <h2>Connect</h2>
-        <ul>
-            <li><a href="https://github.com/JewelBearer">GitHub Profile</a></li>
-            <li><a href="https://linkedin.com/in/jamie-cooley-483a8262">LinkedIn Profile</a></li>
-            <li><a href="https://www.instagram.com/sehratonin">Instagram Profile</a></li>
-            <li><a href=Discord: sehratonin</li>
-        <ul>
-    </section>    
+<section id="Connect">
+<h2><i class="fas fa-network-wired"></i>Connect</h2>
+<p>Let's connect and collaborate on meaningful projects that span technology, wellness, and creativity.</p>
+<div class="social-links">
+<a href="https://github.com/JewelBearer" class="social-link github" title="View GitHub repositories" aria-label="GitHub profile">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://linkedin.com/in/jamie-cooley-483a8262" class="social-link linkedin" title="Connect on LinkedIn" aria-label="LinkedIn profile">
+<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+</a>
+<a href="https://www.instagram.com/sehratonin" class="social-link instagram" title="Follow on Instagram" aria-label="Instagram profile">
+<i class="fab fa-instagram" aria-hidden="true"></i>
+</a>
+<a href="#" class="social-link discord" title="Connect on Discord: sehratonin" aria-label="Discord contact">
+<i class="fab fa-discord" aria-hidden="true"></i>
+</a>
+</div>
+</section>
 </body>
 </html>
