@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset+"UTF-8">
-<meta name="viewport" content="width=device-width, intitial-scale=1.0">
-<meta name+"description" content= "A portfolio highlighting my journey as a budding web developer.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content= "A portfolio highlighting my journey as a budding web developer.">
 <title>Jamie Cooley's Portfolio</title>
 <link rel="stylesheet" href="css/index.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -24,6 +24,8 @@
         <ul>
             <li><a href="#About">About</a></li>
             <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
             <li><a href="#Connect">Connect</a></li>
         </ul>
     </nav>
@@ -34,7 +36,7 @@
         </div>
         <h1>Jamie S. Cooley</h1>
         <p class="subtitle">Afro Cherokee Carolinian • Data Engineer • Wellness Writer • Yogi for the Elders</p>
-        <h2><i class="fas fa-heart"><h2>About</h2>
+        <h2><i class="fas fa-heart"></i>About</h2>
         <p>I am Jamie. Afro Cherokee Carolinian. A Mama, Writer, Yogi for the Elders, and AI Data Engineer. This is my journey as a student with Code The Dream. I am excited to leearn how to build websites and create a roadmap for my career in technology. I am working hard to overcome challenges and stay on track with my assignments.</p>
     </section>
 
@@ -71,6 +73,17 @@
 </div>
 </div>
 </section>
+
+<section id="Skills">
+    <h2>Skills</h2>
+</section>
+
+<section id="Projects">
+    <h2>Projects</h2>
+    <ul>
+    </ul>
+</section>
+
 
 <section id="Connect">
 <h2><i class="fas fa-network-wired"></i>Connect</h2>
