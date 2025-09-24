@@ -224,6 +224,9 @@ gap: 0.5rem;
 position: relative;
 z-index: 1;
 }
+h2:hover {
+    color: var(--creative-purple);
+}
 
 h2 i {
 color: var(--creative-purple);
