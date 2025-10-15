@@ -49,3 +49,37 @@ newMessage.innerHTML = `
     messageList.appendChild(newMessage);
    event.target.reset();
 });
+const GITHUB_URL = 'https://api.github.com/users/JewelBearer/repos';
+fetch(GITHUB_URL)
+.then(response => {
+    if (!response.ok) {
+            throw new Error(`GitHub API returned status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(repositories => {
+    console.log('GitHub Repositories:', repositories);
+// DOM Selection to find the list elements
+        const projectSection = document.getElementById('Projects');
+        const projectList = projectSection.querySelector('ul');
+
+        // Loop over the array to create list items for each repository
+        for (let i = 0; i < repositories.length; i++) {
+            const repo = repositories[i];
+            
+            // Create a new list item (li) element
+            const project = document.createElement('li');
+            
+            // Set the inner text to the repository's name property
+            project.innerText = repo.name;
+            
+            // Append the new project element to the list
+            projectList.appendChild(project);
+        }
+    })
+     .catch(error => {
+        console.error('Error fetching GitHub repos:', error.message);
+        // Display a message to the user if the section is empty (optional but good practice)
+        const projectSection = document.getElementById('Projects');
+        projectSection.innerHTML += `<p style="color:red;">Error loading projects. Please check the console.</p>`;
+    });
