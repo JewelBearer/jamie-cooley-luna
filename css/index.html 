@@ -100,6 +100,7 @@
 </a>
 <a href="#" class="social-link discord" title="Connect on Discord: sehratonin" aria-label="Discord contact">
 <i class="fab fa-discord" aria-hidden="true"></i>
+<script src="js/index.js"></script>
 </a>
 </div>
 </section>

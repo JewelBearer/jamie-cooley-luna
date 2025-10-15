@@ -470,3 +470,39 @@ background: var(--creative-purple);
 html {
 scroll-behavior: smooth;
 }
+#Skills {
+    /* Center the section content on the page */
+    text-align: center;
+    border-left: 4px solid var(--creative-purple);
+}
+
+#Skills h2 {
+    color: var(--creative-purple);
+}
+
+#Skills ul {
+    /* Use Flexbox to display skills in rows */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin-top: 2rem;
+}
+
+#Skills li {
+    /* Style for the individual skill items */
+    background: var(--tech-blue);
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#Skills li:hover {
+    background: var(--wellness-green);
+    transform: translateY(-2px);
+}
